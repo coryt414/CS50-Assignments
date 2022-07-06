@@ -2,4 +2,4 @@
 
 ---
 
-:school_satchel: :dna: This is a repository to collect the assignments from Harvard's CS50 course.
+This is a repository to collect the assignments from Harvard's CS50 course.
