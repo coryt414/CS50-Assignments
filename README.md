@@ -19,5 +19,7 @@ Cash.c is a program that prompts the user for a numberic input and calculates th
 
 # Problem Set 2
 
-Scrabble.c is a lab that assesses each letter in a word entered by Player 1 & Player 2.  Each letter is mapped to a point value (based on the classic Scrabble scoring), then the program calculates a winner based on who enters a word that scores the highest.  In the event of a tie, the program will inform the users of a 'Tie!'
+Scrabble.c is a lab that assesses each letter in a word entered by Player 1 & Player 2.  Each letter is mapped to a point value (based on the classic Scrabble scoring), then the program calculates a winner based on who enters a word that scores the highest.  In the event of a tie, the program will inform the users of a 'Tie!'.
+
+Readability.c is a program that assesses the reading level of a user provided text using the Coleman-Liau Index.  The program takes into account the number of letters in each word and the number of words in each sentence, and provides the grade level for the text.  If the reading level is below Grade 1, the program declares "Below Grade 1" and if the reading level is 16 or above, the program declares "Grade 16+".
 
