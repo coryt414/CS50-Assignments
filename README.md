@@ -25,3 +25,11 @@ Readability.c is a program that assesses the reading level of a user provided te
 
 Caesar.c is a slightly more robust program than previous entries.  This program serves to encrypt user-entered text using a Caesar Cipher (letter + user defined key = new letter).  The program takes one positive numeric command line argument, and returns an error for any more or less than one argument or if the argument is not a positive numeric entry.  The command line argument serves as the "key" (k) for the cipher.  The user is then prompted to enter plain text that will be encrypted.  Any capital & lowercase letters will be shifted by "k" while any non-letter characters will be preserved (i.e. punctuation & numbers).  The cipher text will then e printed for the user.
 
+
+---
+
+# Problem Set 3
+
+Plurality.c implements a plurality election.  The program takes candidates as command line arguments (max 9 candidates), and then takes user input to determine how many voters are involved, then collects votes one user at a time (1 vote per voter).  The program calculates the winner or winners of the election and prints the name(s).
+
+Runoff.c is a program that implements a more complex runoff election.  The program takes candidates as command line arguments (max 9 candidates), and then takes user input to determine how many voters are involved.  From there, the user is prompted to rank candidates for each voter, so that each voters ballot contains the complete list of candidates in order of voter preference.  The program reports if there is a tie among all candidates, a winner if one candidate has more than 50% of the vote, or begins eliminating candidates one by one based on who has the minimum number of votes.  As each candidate is elimintated, the program re-assesses if any candidates have received the majority vote by looking at subsequent selections by voters who have had their candidate eliminated from the running.  Final result of the program is an announcement of the winner's name printed to the console.
